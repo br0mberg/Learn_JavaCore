@@ -1,5 +1,7 @@
-package FactoryMethod;
+package FactoryMethod.Factory;
+
+import FactoryMethod.Model.HouseParametr;
 
 public abstract class ParamFactory {
-    public abstract ParamFactory
+    public abstract HouseParametr createParametr();
 }

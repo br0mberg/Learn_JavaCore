@@ -1,6 +1,5 @@
-package FactoryMethod;
+package FactoryMethod.Model;
 
-public abstract class HouseParametr {
+public interface HouseParametr {
     public abstract void execute(int value, House house);
-    public abstract HouseParametr createParametr();
 }

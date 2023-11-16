@@ -1,4 +1,4 @@
-package FactoryMethod;
+package FactoryMethod.Model;
 
 public class House {
     private Integer temperature;
